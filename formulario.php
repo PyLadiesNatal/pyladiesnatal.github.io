@@ -3,7 +3,7 @@
 // Passando os dados obtidos pelo formulário para as variáveis abaixo
 $nomeremetente     = $_POST['nome'];
 $emailremetente    = trim($_POST['email']);
-$emaildestinatario = 'gabicavalcantesilva@gmail.com'; // Digite seu e-mail aqui, lembrando que o e-mail deve estar em seu servidor web
+$emaildestinatario = 'brazil@pyladies.com'; // Digite seu e-mail aqui, lembrando que o e-mail deve estar em seu servidor web
 $assunto          = $_POST['assunto'];
 $mensagem          = $_POST['mensagem'];
  
@@ -25,7 +25,7 @@ $headers .= "From: $emailremetente\r\n"; // remetente
 $headers .= "Return-Path: $emaildestinatario \r\n"; // return-path
 $envio = mail($emaildestinatario, $assunto, $mensagemHTML, $headers); 
  
- if($envio)
-echo "<script>location.href='index.html'</script>"; // Página que será redirecionada
+if($envio)
+echo "<script>location.href='http://pyladiesnatal.github.io/#contact'</script>"; // Página que será redirecionada
 
 ?>
