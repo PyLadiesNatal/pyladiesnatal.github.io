@@ -25,7 +25,6 @@
 		form select,
 		form textarea
 		{
-			-webkit-appearance: none;
 		}
 
 		form input[type=text],
