@@ -73,8 +73,6 @@
 
 	.button2
 	{
-		padding: 1em 2em 2em 2em;
-		font-size: 1.1em;
 		position: relative;
 		display: inline-block;
 		color: #fff;
@@ -87,17 +85,19 @@
 		text-shadow: -1px -1px 0.5px rgba(0,0,0,0.5);
 		overflow: hidden;
 		background: #61b8db;
-		background-image: -moz-linear-gradient(top, rgba(97,184,219,0), rgba(48,141,196,1));
-		background-image: -webkit-linear-gradient(top, rgba(97,184,219,0), rgba(48,141,196,1));
-		background-image: -o-linear-gradient(top, rgba(97,184,219,0), rgba(48,141,196,1));
-		background-image: -ms-linear-gradient(top, rgba(97,184,219,0), rgba(48,141,196,1));
-		background-image: linear-gradient(top, rgba(97,184,219,0), rgba(48,141,196,1));
-		box-shadow: inset 0px 0px 0px 1px #135c86, inset 0px 2px 1px 0px rgba(255,255,255,0.75);
+		background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #c62d1f), color-stop(1, #f24437));
+		background:-moz-linear-gradient(top, #c62d1f 5%, #f24437 100%);
+		background:-webkit-linear-gradient(top, #c62d1f 5%, #f24437 100%);
+		background:-o-linear-gradient(top, #c62d1f 5%, #f24437 100%);
+		background:-ms-linear-gradient(top, #c62d1f 5%, #f24437 100%);
+		background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
 		-moz-transition: background-color .2s ease-in-out;
 		-webkit-transition: background-color .2s ease-in-out;
 		-o-transition: background-color .2s ease-in-out;
 		-ms-transition: background-color .2s ease-in-out;
 		transition: background-color .2s ease-in-out;
+		filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#c62d1f', endColorstr='#f24437',GradientType=0);
+		background-color:#c62d1f; 
 	}
 
 		.button-big
