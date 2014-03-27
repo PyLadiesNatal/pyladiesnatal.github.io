@@ -5,7 +5,7 @@ $nomeremetente     = $_POST['nome'];
 $emailremetente    = trim($_POST['email']);
 $emaildestinatario = 'brazil@pyladies.com'; // Digite seu e-mail aqui, lembrando que o e-mail deve estar em seu servidor web
 $assunto          = $_POST['assunto'];
-$mensagem          = $_POST['menssagem"'];
+$mensagem          = $_POST['mensagem'];
  
  
 /* Montando a mensagem a ser enviada no corpo do e-mail. */
