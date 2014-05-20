@@ -1,0 +1,159 @@
+html {
+    height: 100%;
+    font-size: 16px;
+}
+
+body {
+    background: #eee;
+    background-size: auto 4em; 
+    font-size: 16px;
+    min-height: 100%;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 300;
+}
+
+div {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18;
+}
+
+a {
+    font-size: 18;
+    text-decoration: none;
+    color: #55bb58;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    width: 13em; 
+    left: 0px;
+    overflow-y: auto;
+    font-family: "PT Sans",Helvetica,Arial,sans-serif;
+    font-size: 0.875rem;
+    color: rgba(255, 255, 255, 0.6);
+    background-color: #202020; 
+}
+    .sidebar-item {
+        padding-left: 38%;
+    }
+    
+    .sidebar-item a {
+        line-height: 2;
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .sidebar-ladies {
+        margin-top: 1em;  
+    }
+        .sidebar-ladies h4 {
+            margin-left: 15px;
+        }
+
+    .ladies-list {
+        margin: 0;
+        margin-top: 0.5em;
+    }
+
+    .ladies-list li {
+        list-style: none; 
+        margin-bottom: 1em;
+        margin-left: -25px;
+    }
+
+    .ladies-thumbnail {
+        width: 3em;
+        height: 3em;
+        float: left;
+        margin-right: 1em;
+    }
+
+    .ladies-info {
+        font-size: 0.75em;
+    }
+
+
+.itens {
+    margin-top: 15px;
+}
+
+.img {
+    height: 150px;
+    padding: 15px;
+}
+
+.pyladies-img {
+    width: 200px;
+}
+
+.masthead {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 3rem;
+    border-bottom: 1px solid #eee;  
+}
+
+.container {
+    max-width: 38rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.masthead-title {
+    margin-top: -15;
+    margin-bottom: 0;
+    margin-left: 10px;
+    color: #505050;
+}
+
+.wrap {
+    margin-left: 15%;
+    width: 100%;
+    min-width: 960px;  
+}
+
+.albums {
+    padding: 1em; 
+    width: 25em;
+}
+
+.album-list {
+    margin: 0;
+    padding: 0;
+}
+
+.album-list li {
+    list-style: none;
+    margin-bottom: 1em;
+    min-height: 14em;
+} 
+ 
+
+.btn {
+    background: #bbb;
+    color: #666;
+    display: inline-block;
+    padding: 0.5em 1em;
+    border-radius: 2px;
+    font-weight: 600;
+    font-size: 0.75em;
+}
+
+    .btn.btn-green {
+        background: #55bb58;
+        color: #fff;
+    }
+
+.box {
+    background: #fff;
+    padding: 1em;
+}
+
+.clear {
+    clear: both;
+}
