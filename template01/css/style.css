@@ -85,8 +85,17 @@ a {
     padding: 15px;
 }
 
+.cabeca {
+    float: right;
+    position: relative;
+    bottom: 160;
+    right: 20px;
+    height: 230px;
+}
+
 .pyladies-img {
-    width: 200px;
+    width: 350px;
+    margin-bottom: 0px;
 }
 
 .masthead {
@@ -96,10 +105,7 @@ a {
     border-bottom: 1px solid #eee;  
 }
 
-.container {
-    max-width: 38rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
+.container {  
     margin-left: auto;
     margin-right: auto;
 }
@@ -112,14 +118,12 @@ a {
 }
 
 .wrap {
-    margin-left: 15%;
-    width: 100%;
+    margin-left: 15%; 
     min-width: 960px;  
 }
 
 .albums {
-    padding: 1em; 
-    width: 25em;
+    padding: 1em;  
 }
 
 .album-list {
