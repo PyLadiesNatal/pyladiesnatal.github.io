@@ -98,6 +98,15 @@ a {
     margin-bottom: 0px;
 }
 
+.img-perfil {
+    height: 200px;
+}
+
+.ladies-box {
+    width: 200px; 
+    float: left; 
+}
+
 .masthead {
     padding-top: 1rem;
     padding-bottom: 1rem;
@@ -122,20 +131,22 @@ a {
     min-width: 960px;  
 }
 
-.albums {
+.ladies {
     padding: 1em;  
 }
 
-.album-list {
+.poderosas {
     margin: 0;
     padding: 0;
+    width: 800px;
 }
-
-.album-list li {
-    list-style: none;
-    margin-bottom: 1em;
-    min-height: 14em;
-} 
+    
+    .poderosas li {
+        list-style: none;
+        margin-bottom: 1em;
+        min-height: 14em;
+        margin-left: 20px;
+    } 
  
 
 .btn {
